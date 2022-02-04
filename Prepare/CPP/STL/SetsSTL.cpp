@@ -35,13 +35,13 @@ int main() {
         else // nType == 3
         {
             set<int>::iterator it = s.find(nValue);
-            if (it==s.end())
+            if (it != s.end())
             {
-                cout << "No" << endl;
+                cout << "Yes" << endl;
             }
             else 
             {
-                cout << "Yes" << endl;
+                cout << "No" << endl;
             }
         }
     }
