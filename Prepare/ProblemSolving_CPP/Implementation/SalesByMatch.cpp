@@ -33,7 +33,6 @@ int sockMerchant(int n, vector<int> ar) {
     // input at value index
     for (int i = 0; i < ar.size(); i++) {
         arr[ar[i]]++;
-        cout << arr[ar[i]] << endl;
     }
     
     // check pair
